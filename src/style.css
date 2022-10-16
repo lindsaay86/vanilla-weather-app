@@ -4,11 +4,16 @@ body {
 }
 
 h1 {
-  color: #297060;
+  color: #7358ec;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: #7358ec;
 }
 
 ul {
@@ -19,13 +24,23 @@ ul {
 li {
   list-style: none;
   color: #3dab92;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 100;
   line-height: 20px;
 }
 
 li::first-letter {
   text-transform: capitalize;
+}
+
+.btn {
+  background: #3dab92;
+  border: 1px solid #3dab92;
+  font-size: 15px;
+}
+
+.form-control {
+  font-size: 15px;
 }
 
 .weather-description {
@@ -67,8 +82,5 @@ li::first-letter {
 .weather-temperature .active {
   color: #000000;
   cursor: default;
-}
-
-.weather-temperature .active {
   text-decoration: none;
 }
